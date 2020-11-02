@@ -24,7 +24,7 @@ input		data_in;
 output		data_out;
 `ifdef BEHAVIORAL
 
-  var	logic	dff_reg;
+  logic	dff_reg;
 
   always @(negedge rst_n or posedge clk) begin
     dff_reg <= (rst_n == 1'b0)? 1'b1 : data_in;

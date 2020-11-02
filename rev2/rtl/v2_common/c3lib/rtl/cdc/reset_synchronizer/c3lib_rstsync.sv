@@ -30,8 +30,8 @@ module  c3lib_rstsync #(
 //  V A R I A B L E S
 // ****************************************************************************
 
-var	logic	 rst_n_int;
-var	logic	 rst_n_sync_int;
+logic	 rst_n_int;
+logic	 rst_n_sync_int;
 
 
 

@@ -3,7 +3,7 @@
 // Library - aibcr_lib, Cell - aibcr_signal_buf, View - schematic
 // LAST TIME SAVED: May 13 16:16:28 2015
 // NETLIST TIME: Jun  3 08:29:49 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_signal_buf ( sig_out, sig_in, vcc, vssl );
 

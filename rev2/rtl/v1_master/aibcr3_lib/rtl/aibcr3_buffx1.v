@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_buffx1, View - schematic
 // LAST TIME SAVED: Sep  5 22:35:02 2016
 // NETLIST TIME: Sep  8 13:11:45 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_buffx1 ( oclk, oclkb, oclkn, odat0, odat1, odat_async,
      pd_data, iopad, async_dat, clkdr, iclkin_dist,

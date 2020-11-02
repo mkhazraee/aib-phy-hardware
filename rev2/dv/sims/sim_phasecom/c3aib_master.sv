@@ -2,7 +2,7 @@
 // Copyright (C) 2019 Intel Corporation. 
 // Mapping file to map single channel opensource IP IO ports to AIB specification 1.1
 
-`timescale 1ps/1fs
+`timescale 1ps/1ps
 
 module c3aib_master (
  //================================================================================================

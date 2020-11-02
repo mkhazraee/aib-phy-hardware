@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_top, View - schematic
 // LAST TIME SAVED: May 12 19:18:16 2015
 // NETLIST TIME: May 12 19:44:01 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_top ( jtag_clksel_out, jtag_intest_out, jtag_mode_out,
      jtag_rstb_en_out, jtag_rstb_out, jtag_tx_scanen_out,

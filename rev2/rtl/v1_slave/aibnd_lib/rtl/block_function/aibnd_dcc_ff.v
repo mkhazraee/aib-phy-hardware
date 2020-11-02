@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_dcc_ff, View - schematic
 // LAST TIME SAVED: Mar 27 14:37:41 2015
 // NETLIST TIME: May 12 17:53:11 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_dcc_ff ( q, so, clk, d, rb, se_n, si, vcc_aibnd, vss_aibnd
      );

@@ -21,13 +21,13 @@ module c3lib_ckdiv8_ctn #(
 
 ); 
 
-  var	logic	int_s0_clk_out;
-  var	logic	int_s1_clk_out;
-  var	logic	int_s2_clk_out;
+  logic	int_s0_clk_out;
+  logic	int_s1_clk_out;
+  logic	int_s2_clk_out;
 
-  var	logic	int_s0_clk_in;
-  var	logic	int_s1_clk_in;
-  var	logic	int_s2_clk_in;
+  logic	int_s0_clk_in;
+  logic	int_s1_clk_in;
+  logic	int_s2_clk_in;
 
   // assign int_s0_clk_in = ~int_s0_clk_out;
   // assign int_s1_clk_in = int_s1_clk_out ^ int_s0_clk_out;

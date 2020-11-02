@@ -4,7 +4,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_buffx1_top, View - schematic
 // LAST TIME SAVED: Jul  8 16:11:15 2015
 // NETLIST TIME: Jul  9 10:52:16 2015
-// `timescale 1ns / 1ns
+// `timescale 1ps/1ps
 
 // Ayar modifications:
 //  1. Removed vcc, vccl, vssl pins, replaced them with 1'b0 and 1'b1 as appropriate.

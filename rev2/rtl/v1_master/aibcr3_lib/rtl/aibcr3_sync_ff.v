@@ -3,7 +3,7 @@
 // Library - aibcr_lib, Cell - aibcr_sync_ff, View - schematic
 // LAST TIME SAVED: Apr 28 12:41:55 2015
 // NETLIST TIME: May 14 11:14:35 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_sync_ff ( Q, so,   
       CDN, CP, D, se_n, si );

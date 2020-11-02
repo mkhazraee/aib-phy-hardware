@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_txdatapath_tx, View - schematic
 // LAST TIME SAVED: Jul  7 15:46:47 2015
 // NETLIST TIME: Jul  8 13:09:52 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_txdatapath_tx ( async_dat_outpdir1_1, dcc_done,
      dft_rx_clk, iasyncdata_oshared2, idat0_outpdir6, idat0_poutp18,

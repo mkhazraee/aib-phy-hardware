@@ -3,7 +3,7 @@
 // Library - aibcraux_lib, Cell - aibcraux_osc, View - schematic
 // LAST TIME SAVED: Mar 20 08:51:28 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc ( ib50u1, ib50u2, ib50u3, ib50u4, oaib_dft2osc,
      oosc_atb0, oosc_atb1, oosc_clkout, oosc_monitor, oosc_reserved,

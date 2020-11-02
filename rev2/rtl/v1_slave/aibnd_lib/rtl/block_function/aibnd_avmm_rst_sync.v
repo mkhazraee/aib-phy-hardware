@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_avmm_rst_sync, View - schematic
 // LAST TIME SAVED: Apr 22 09:42:47 2015
 // NETLIST TIME: May 12 17:53:10 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_avmm_rst_sync ( pcs_clk, pcs_clkb, resetb_sync_buf,
      avmm_clk, avmm_rstb, vccl_aibnd, vssl_aibnd );

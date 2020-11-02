@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dll_ibkmux, View - schematic
 // LAST TIME SAVED: Aug 22 11:46:45 2016
 // NETLIST TIME: Aug 31 08:45:53 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dll_ibkmux ( SO_OUT, grey, igray, CK, RSTb,
      SE, code_valid, si, sm_grey, sm_igray );

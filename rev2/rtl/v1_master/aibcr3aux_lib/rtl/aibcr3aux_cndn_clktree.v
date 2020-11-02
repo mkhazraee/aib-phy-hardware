@@ -4,7 +4,7 @@
 //schematic
 // LAST TIME SAVED: Apr 16 09:49:55 2015
 // NETLIST TIME: Jun  3 17:00:05 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_cndn_clktree ( lstrbclk_l_0, lstrbclk_l_1,
      lstrbclk_l_2, lstrbclk_l_3, lstrbclk_l_4, lstrbclk_l_5,

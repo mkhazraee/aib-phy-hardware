@@ -50,7 +50,7 @@ module  c3lib_ckmux4_lvt_gate(
 `ifdef BEHAVIORAL
 
   always_comb begin
-    unique case ( { s1, s0 } )
+    case ( { s1, s0 } )
       2'b00   : int_fp_ck_out = ck0;
       2'b01   : int_fp_ck_out = ck1;
       2'b10   : int_fp_ck_out = ck2;
@@ -60,7 +60,7 @@ module  c3lib_ckmux4_lvt_gate(
   end
 
   always_comb begin
-    unique case ( { tst_s1, tst_s0 } )
+    case ( { tst_s1, tst_s0 } )
       2'b00   : int_tst_ck_out = ck0;
       2'b01   : int_tst_ck_out = ck1;
       2'b10   : int_tst_ck_out = ck2;
@@ -70,7 +70,7 @@ module  c3lib_ckmux4_lvt_gate(
   end
 
   always_comb begin
-    unique case ( { tst_override } )
+    case ( { tst_override } )
       1'b0    : int_ck_out = int_fp_ck_out;
       1'b1    : int_ck_out = int_tst_ck_out;
       default : int_ck_out = 1'bx;

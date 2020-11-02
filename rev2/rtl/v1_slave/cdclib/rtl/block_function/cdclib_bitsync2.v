@@ -43,7 +43,6 @@ if (VID == 1) begin
 // Reset synchronizer  
 if (RESET_VAL == 0) begin
   if (CLK_FREQ_MHZ <= 175) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_reset_type_w_gate bit_sync2_reset_type_w_inst
@@ -54,7 +53,6 @@ if (RESET_VAL == 0) begin
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else if (CLK_FREQ_MHZ <= 350 ) begin
     if (TOGGLE_TYPE == 1 || TOGGLE_TYPE == 2) 
@@ -85,7 +83,6 @@ if (RESET_VAL == 0) begin
     end
   end
   else if (CLK_FREQ_MHZ <= 850) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_reset_type_l_gate bit_sync2_reset_type_l_inst
@@ -96,7 +93,6 @@ if (RESET_VAL == 0) begin
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else if (CLK_FREQ_MHZ <= 1200 ) begin
     if (TOGGLE_TYPE == 1 || TOGGLE_TYPE == 2) 
@@ -183,7 +179,6 @@ if (RESET_VAL == 0) begin
     end
   end  
   else begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_reset_type_n_gate bit_sync2_reset_type_n_inst
@@ -194,13 +189,11 @@ if (RESET_VAL == 0) begin
           .data_out	(data_out[i])
          );
       end
-    end
   end  
 end
 // Preset synchronizer  
 else begin
   if (CLK_FREQ_MHZ <= 175) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_set_type_w_gate bit_sync2_set_type_w_inst
@@ -211,7 +204,6 @@ else begin
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else if (CLK_FREQ_MHZ <= 350 ) begin
     if (TOGGLE_TYPE == 1 || TOGGLE_TYPE == 2) 
@@ -242,7 +234,6 @@ else begin
     end
   end
   else if (CLK_FREQ_MHZ <= 850) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_set_type_l_gate bit_sync2_set_type_l_inst
@@ -253,7 +244,6 @@ else begin
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else if (CLK_FREQ_MHZ <= 1200 ) begin
     if (TOGGLE_TYPE == 1 || TOGGLE_TYPE == 2) 
@@ -340,7 +330,6 @@ else begin
     end
   end  
   else begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_set_type_n_gate bit_sync2_set_type_n_inst
@@ -351,14 +340,12 @@ else begin
           .data_out	(data_out[i])
          );
       end
-    end
   end  
 end
 end
 else begin	// Pre-VID
 if (RESET_VAL == 0) begin	// sync with reset
   if (CLK_FREQ_MHZ <= 300) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_reset_type_l_gate bit_sync2_reset_type_l_inst
@@ -369,7 +356,6 @@ if (RESET_VAL == 0) begin	// sync with reset
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else begin
     if (TOGGLE_TYPE == 1 || TOGGLE_TYPE == 2) 
@@ -402,7 +388,6 @@ if (RESET_VAL == 0) begin	// sync with reset
 end
 else begin  // sync with pre-set
   if (CLK_FREQ_MHZ <= 300) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync2_set_type_l_gate bit_sync2_set_type_l_inst
@@ -413,7 +398,6 @@ else begin  // sync with pre-set
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else begin
     if (TOGGLE_TYPE == 1 || TOGGLE_TYPE == 2) 

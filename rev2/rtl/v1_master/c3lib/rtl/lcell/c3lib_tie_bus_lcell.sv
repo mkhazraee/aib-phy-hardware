@@ -22,7 +22,7 @@ module c3lib_tie_bus_lcell #(
 genvar i;
 
 generate
-  for( i=0; i < $bits(TIE_VALUE); i += 1) begin : TIE_BUS_FOR_LOOP
+  for( i=0; i < $bits(TIE_VALUE); i = i + 1) begin : TIE_BUS_FOR_LOOP
 
     if (TIE_VALUE[i]) begin : TIE_BUS_BIT_HIGH
       c3lib_tie1_svt_1x u_c3lib_tie1_svt_1x( .out	( out[i] ) );

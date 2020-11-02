@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_top_wrp, View - schematic
 // LAST TIME SAVED: Apr  8 09:44:04 2015
 // NETLIST TIME: May 12 19:29:56 2015
-`timescale 1ps / 1ps 
+`timescale 1ps/1ps
 
 module aibnd_top_wrp ( aib65, aib66, aib76, aib79, aib77, aib81, aib91,
      aib89, aib90, aib88, aib63, aib64, aib61, aib49, aib56, aib48,

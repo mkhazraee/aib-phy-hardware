@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_analog, View - schematic
 // LAST TIME SAVED: Sep  5 22:18:58 2016
 // NETLIST TIME: Sep  8 13:11:45 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_analog ( oclkn, oclkp, odat, odat_async, 
      iopad, clk_en, data_en, iclkn, indrv_buf, ipdrv_buf,

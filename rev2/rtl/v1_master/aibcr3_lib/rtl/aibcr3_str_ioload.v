@@ -3,7 +3,7 @@
 // Library - aibcr_lib, Cell - aibcr_str_ioload, View - schematic
 // LAST TIME SAVED: May 13 16:11:12 2015
 // NETLIST TIME: May 14 11:14:35 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_str_ioload ( in, vcc, vssl );
 

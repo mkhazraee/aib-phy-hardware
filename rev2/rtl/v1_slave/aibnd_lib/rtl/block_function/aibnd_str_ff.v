@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_str_ff, View - schematic
 // LAST TIME SAVED: Mar 26 07:33:48 2015
 // NETLIST TIME: May 12 17:53:10 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_str_ff ( q, so, clk, code_valid, d, rb, se_n, si );
 

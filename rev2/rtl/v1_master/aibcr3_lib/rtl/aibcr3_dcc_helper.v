@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dcc_helper, View - schematic
 // LAST TIME SAVED: Aug 17 16:03:51 2016
 // NETLIST TIME: Aug 18 17:31:16 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_helper ( ckout, clk_dcd, dcc_byp,
      launch, measure, rstb );

@@ -42,7 +42,6 @@ generate
 // Reset synchronizer  
 if (RESET_VAL == 0) begin
   if (CLK_FREQ_MHZ <= 850) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync4_reset_type_w_gate bit_sync4_reset_type_w_inst
@@ -53,10 +52,8 @@ if (RESET_VAL == 0) begin
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync4_reset_type_l_gate bit_sync4_reset_type_l_inst
@@ -67,13 +64,11 @@ if (RESET_VAL == 0) begin
           .data_out	(data_out[i])
          );
       end
-    end
   end  
 end
 // Preset synchronizer  
 else begin
   if (CLK_FREQ_MHZ <= 850) begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync4_set_type_w_gate bit_sync4_set_type_w_inst
@@ -84,10 +79,8 @@ else begin
           .data_out	(data_out[i])
          );
       end
-    end
   end
   else begin
-    begin
     for (i=0; i < DWIDTH; i=i+1)
       begin: bit_sync_i
         cdclib_sync4_set_type_l_gate bit_sync4_set_type_l_inst
@@ -98,7 +91,6 @@ else begin
           .data_out	(data_out[i])
          );
       end
-    end
   end  
 end
 

@@ -28,7 +28,7 @@ module c3lib_ckg_async_posedge_ctn #(
 
 ); 
 
-var	logic	clk_en_sync;
+logic	clk_en_sync;
 
 c3lib_bitsync #(
 

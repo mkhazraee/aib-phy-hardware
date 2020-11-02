@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_red_clkmux2, View - schematic
 // LAST TIME SAVED: Apr 27 12:38:24 2015
 // NETLIST TIME: May 11 08:44:04 2015
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_clkmux2 ( mux_sel, oclk_in1, oclk_in0, oclk_out );
 

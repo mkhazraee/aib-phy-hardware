@@ -4,7 +4,7 @@
 //schematic
 // LAST TIME SAVED: Sep  5 22:37:21 2016
 // NETLIST TIME: Sep  8 13:11:44 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_red_custom_dig2 ( iclkin_dist_aib, ilaunch_clk_aib,
      istrbclk_aib, oclk_out, oclkb_out, clkdr_in,

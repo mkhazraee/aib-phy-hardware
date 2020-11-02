@@ -23,8 +23,8 @@ module c3lib_ecc_dec_c88_d80(
 );
 
 // Declarations
-var logic		parity0;
-var logic[ 87 : 1 ]	correct_bit;
+logic		parity0;
+logic[ 87 : 1 ]	correct_bit;
 
 // Validate parity bits
 assign parity0 = i_code[ 0 ] ^ i_code[ 1 ] ^ i_code[ 2 ] ^ i_code[ 3 ] ^ i_code[ 4 ] ^ i_code[ 5 ] ^ i_code[ 6 ] ^ i_code[ 7 ] ^ i_code[ 8 ] ^ i_code[ 9 ] ^ i_code[ 10 ] ^ i_code[ 11 ] ^ i_code[ 12 ] ^ i_code[ 13 ] ^ i_code[ 14 ] ^ i_code[ 15 ] ^ i_code[ 16 ] ^ i_code[ 17 ] ^ i_code[ 18 ] ^ i_code[ 19 ] ^ i_code[ 20 ] ^ i_code[ 21 ] ^ i_code[ 22 ] ^ i_code[ 23 ] ^ i_code[ 24 ] ^ i_code[ 25 ] ^ i_code[ 26 ] ^ i_code[ 27 ] ^ i_code[ 28 ] ^ i_code[ 29 ] ^ i_code[ 30 ] ^ i_code[ 31 ] ^ i_code[ 32 ] ^ i_code[ 33 ] ^ i_code[ 34 ] ^ i_code[ 35 ] ^ i_code[ 36 ] ^ i_code[ 37 ] ^ i_code[ 38 ] ^ i_code[ 39 ] ^ i_code[ 40 ] ^ i_code[ 41 ] ^ i_code[ 42 ] ^ i_code[ 43 ] ^ i_code[ 44 ] ^ i_code[ 45 ] ^ i_code[ 46 ] ^ i_code[ 47 ] ^ i_code[ 48 ] ^ i_code[ 49 ] ^ i_code[ 50 ] ^ i_code[ 51 ] ^ i_code[ 52 ] ^ i_code[ 53 ] ^ i_code[ 54 ] ^ i_code[ 55 ] ^ i_code[ 56 ] ^ i_code[ 57 ] ^ i_code[ 58 ] ^ i_code[ 59 ] ^ i_code[ 60 ] ^ i_code[ 61 ] ^ i_code[ 62 ] ^ i_code[ 63 ] ^ i_code[ 64 ] ^ i_code[ 65 ] ^ i_code[ 66 ] ^ i_code[ 67 ] ^ i_code[ 68 ] ^ i_code[ 69 ] ^ i_code[ 70 ] ^ i_code[ 71 ] ^ i_code[ 72 ] ^ i_code[ 73 ] ^ i_code[ 74 ] ^ i_code[ 75 ] ^ i_code[ 76 ] ^ i_code[ 77 ] ^ i_code[ 78 ] ^ i_code[ 79 ] ^ i_code[ 80 ] ^ i_code[ 81 ] ^ i_code[ 82 ] ^ i_code[ 83 ] ^ i_code[ 84 ] ^ i_code[ 85 ] ^ i_code[ 86 ] ^ i_code[ 87 ];

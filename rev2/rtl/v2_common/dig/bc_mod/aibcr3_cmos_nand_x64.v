@@ -9,7 +9,7 @@
 // 2.
 // 3. PE: Corrected width of port connections to aibcr3_dll_dlyline64.
 //
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_cmos_nand_x64 ( out_p, so, code_valid,
      dll_reset_n, in_p, scan_rst_n, sck_in, se_n, si, sm_grey,

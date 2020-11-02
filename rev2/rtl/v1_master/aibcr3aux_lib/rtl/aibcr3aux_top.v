@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright (C) 2019 Intel Corporation. 
 // Library - aibcr3aux_lib, Cell - aibcr3aux_top, View - schematic
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_top ( jtag_clkdr_out, jtag_clksel_out, jtag_intest_out,
      jtag_mode_out, jtag_rstb_en_out, jtag_rstb_out, jtag_rx_scan_out,

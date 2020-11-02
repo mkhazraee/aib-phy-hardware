@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_osc_dly, View - schematic
 // LAST TIME SAVED: Mar 19 12:31:17 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_dly ( clkout, q, scan_out, clk, rstb, scan_clk,
      scan_in, scan_mode_n, scan_rst_n, scan_shift_n, vcc_aibcr3aux,

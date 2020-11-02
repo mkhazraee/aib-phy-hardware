@@ -5,7 +5,7 @@
 `timescale 1ps/1ps
 module aibcr3_dcc_phasedet
 #(
-parameter FF_DELAY     = 200
+parameter FF_DELAY     = 20
 )
 ( 
 output wire 	  t_down, 
@@ -15,8 +15,8 @@ input  wire	  CLKB,
 input  wire	  RSTb);
 
 `ifdef TIMESCALE_EN
-                timeunit 100fs;
-                timeprecision 100fs;
+                timeunit 1ps;
+                timeprecision 1ps;
 `endif
 
 always @(posedge CLKB or negedge RSTb)

@@ -25,4 +25,4 @@
 //		DO NOT COMPILE WITH TICK - ALTR_HPS_MEMORY_OFF
 //`endif
 
-`timescale 1ns/1ps
+`timescale 1ps/1ps

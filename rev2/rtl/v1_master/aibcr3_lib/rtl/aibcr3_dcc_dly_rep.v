@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dcc_dly_rep, View - schematic
 // LAST TIME SAVED: Sep  6 00:13:19 2016
 // NETLIST TIME: Sep 13 21:47:07 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_dly_rep ( clkrep, idat, rb_dcc_byp );
 

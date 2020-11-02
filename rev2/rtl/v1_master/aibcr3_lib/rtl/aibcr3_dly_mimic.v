@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dly_mimic, View - schematic
 // LAST TIME SAVED: Sep  5 23:53:09 2016
 // NETLIST TIME: Sep 13 21:47:07 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dly_mimic ( ihssi_rx_data_out_dly, csr_reg6,
      idll_core2dll_1, ihssi_rx_data_out, rb_dcc_byp, rb_dcc_byp_dprio,

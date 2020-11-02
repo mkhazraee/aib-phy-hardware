@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_dcc_helper, View - schematic
 // LAST TIME SAVED: May  7 14:55:59 2015
 // NETLIST TIME: May 12 17:53:11 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_dcc_helper ( clkout, clk_dcd, dcc_byp, launch, launchb,
      measure, measureb, rstb, vcc_io, vss_io );

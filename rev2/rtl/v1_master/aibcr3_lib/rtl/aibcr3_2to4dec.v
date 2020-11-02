@@ -3,7 +3,7 @@
 // Library - aibcr_lib, Cell - aibcr_2to4dec, View - schematic
 // LAST TIME SAVED: Oct 21 18:17:27 2014
 // NETLIST TIME: Apr  4 14:12:47 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_2to4dec ( nsel_out0b, nsel_out1b, nsel_out2b, nsel_out3b,
      psel_out0, psel_out1, psel_out2, psel_out3, vccl, vssl, enable,

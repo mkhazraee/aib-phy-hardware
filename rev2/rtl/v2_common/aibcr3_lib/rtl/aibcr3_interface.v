@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_interface, View - schematic
 // LAST TIME SAVED: Sep  5 23:52:37 2016
 // NETLIST TIME: Sep 13 21:47:08 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_interface ( buf_iatpg_bsr0_scan_in,
      buf_iatpg_bsr0_scan_shift_clk, buf_iatpg_bsr1_scan_in,

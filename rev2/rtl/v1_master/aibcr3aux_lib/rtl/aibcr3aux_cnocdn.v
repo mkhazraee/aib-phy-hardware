@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_cnocdn, View - schematic
 // LAST TIME SAVED: Aug 25 11:02:20 2015
 // NETLIST TIME: Aug 26 15:05:12 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_cnocdn ( cndn, jtag_rx_scan_out_01x3,
      jtag_rx_scan_out_01x4, last_bs_out_01x3, last_bs_out_01x4,

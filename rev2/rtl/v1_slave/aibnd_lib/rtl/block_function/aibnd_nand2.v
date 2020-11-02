@@ -8,7 +8,7 @@
 // Library - aibnd_lib, Cell - aibnd_nand2, View - schematic
 // LAST TIME SAVED: May  4 08:41:42 2015
 // NETLIST TIME: May 11 08:41:16 2015
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_nand2 ( clkout, clk, en, vccl_aibnd, vssl_aibnd );
 

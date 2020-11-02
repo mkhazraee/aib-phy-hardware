@@ -3,7 +3,7 @@
 // Library - aibcraux_lib, Cell - aibcraux_osc_dft, View - schematic
 // LAST TIME SAVED: Apr 30 15:17:02 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_dft ( osc2dft_out, scan_out, testpin_cntr_code,
      vcc_aibcraux, vss_aibcraux, counter, osc_clkin, scan_clk, scan_in,

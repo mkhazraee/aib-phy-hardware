@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_txdig, View - schematic
 // LAST TIME SAVED: Sep  5 22:18:17 2016
 // NETLIST TIME: Sep  8 13:11:45 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_txdig ( indrv_buf, ipdrv_buf, itx_en_buf, tx_dat_out,
      weak_pulldownen, weak_pullupenb, async_data, clkdr,

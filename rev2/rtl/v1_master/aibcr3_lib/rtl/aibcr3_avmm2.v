@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_avmm2, View - schematic
 // LAST TIME SAVED: Jul  8 11:29:14 2015
 // NETLIST TIME: Jul  9 10:52:19 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_avmm2 ( avmm2_odat0, avmm2_odat1, idata0_voutp1,
      idata1_voutp1, idataselb_voutp1, irxen_vinp10, irxen_vinp11,

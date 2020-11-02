@@ -10,7 +10,7 @@
 //  2.  Added load dummy to istrbclk_mimic2
 // BC changes:
 //  3.  Replaced aibcr3_dcc_phasedet with aibcr3_dll_phasedet
-`timescale 1ns / 1ns
+// `timescale 1ps/1ps
 
 module aibcr3_str_align ( lstrbclk_l_0, lstrbclk_l_1, lstrbclk_l_2,
      lstrbclk_l_3, lstrbclk_l_4, lstrbclk_l_5, lstrbclk_l_6,

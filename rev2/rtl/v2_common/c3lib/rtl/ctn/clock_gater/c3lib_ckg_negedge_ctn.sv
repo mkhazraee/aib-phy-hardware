@@ -18,8 +18,8 @@ module c3lib_ckg_negedge_ctn(
 
 ); 
 
-var	logic	inv_clk;
-var	logic	inv_gated_clk;
+logic	inv_clk;
+logic	inv_gated_clk;
 
 c3lib_ckinv_svt_8x u_c3lib_ckinv_svt_8x(
 

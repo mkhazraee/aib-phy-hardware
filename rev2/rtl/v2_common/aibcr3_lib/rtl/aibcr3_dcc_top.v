@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dcc_top, View - schematic
 // LAST TIME SAVED: Aug 16 22:19:29 2016
 // NETLIST TIME: Aug 17 15:46:59 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_top ( clk_dcc, dcc_done, odll_dll2core, scan_out,
        clk_dcd, clktree_out, csr_reg, dcc_dft_nrst,

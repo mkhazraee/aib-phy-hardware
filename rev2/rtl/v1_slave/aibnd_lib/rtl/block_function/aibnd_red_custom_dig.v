@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_red_custom_dig, View - schematic
 // LAST TIME SAVED: Apr 22 15:41:59 2015
 // NETLIST TIME: May 12 17:53:10 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_red_custom_dig ( anlg_rstb_out, anlg_rstb,
      prev_io_shift_en, shift_en, vccl_aibnd, vssl_aibnd );

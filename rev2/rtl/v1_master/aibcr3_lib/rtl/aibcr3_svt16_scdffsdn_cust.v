@@ -3,7 +3,7 @@
 // Library - aibcr_lib, Cell - aibcr_dcc_ff, View - schematic
 // LAST TIME SAVED: May 18 17:39:15 2015
 // NETLIST TIME: Jun  3 08:29:48 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_svt16_scdffsdn_cust ( Q, scQ, CK, 
      D, SDN, SE, SI );

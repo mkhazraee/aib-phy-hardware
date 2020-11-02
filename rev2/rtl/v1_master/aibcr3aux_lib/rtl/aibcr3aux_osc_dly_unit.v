@@ -4,7 +4,7 @@
 //schematic
 // LAST TIME SAVED: Mar 19 10:27:32 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_dly_unit ( q, so, cdn, cp, d, se_n, si, vbb, vdd,
      vpp, vss );

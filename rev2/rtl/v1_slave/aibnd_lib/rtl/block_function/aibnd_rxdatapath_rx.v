@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_rxdatapath_rx, View - schematic
 // LAST TIME SAVED: Jul  7 14:09:46 2015
 // NETLIST TIME: Jul  8 13:09:51 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_rxdatapath_rx ( async_dat_outpclk1_1,
      async_dat_outpdir0_1, idat0_in0_dout_clkp, idat1_in0_dout_clkp,

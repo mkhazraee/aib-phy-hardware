@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_red_clkmux3, View - schematic
 // LAST TIME SAVED: Apr 22 13:17:46 2015
 // NETLIST TIME: May 11 08:48:38 2015
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_red_clkmux3 ( clkout, clk1, clk2, clk3, s1, s2, s3,
      vccl_aibnd, vssl_aibnd );

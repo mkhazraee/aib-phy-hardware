@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_str_ioload, View - schematic
 // LAST TIME SAVED: May 19 10:56:07 2015
 // NETLIST TIME: May 19 12:48:22 2015
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_str_ioload ( inp);
 

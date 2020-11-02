@@ -6,7 +6,7 @@
 // LAST TIME SAVED: Aug  1 14:55:33 2016
 // NETLIST TIME: Aug 17 15:46:58 2016
 // Ayar changes: Changed to named ports
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_crsdlyline ( SOOUT, bk, crsDLY, CLK,
      CLKIN, PDb, SE, SI, gry );

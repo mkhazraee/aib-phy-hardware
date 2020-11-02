@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dll_lock_dly, View - schematic
 // LAST TIME SAVED: Aug 17 16:02:21 2016
 // NETLIST TIME: Aug 18 17:31:16 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dll_lock_dly ( SOoutd, dcc_done, dll_lock_reg, 
       RSTb, clk_dcd, dll_lock_mux, rb_cont_cal, scan_in,

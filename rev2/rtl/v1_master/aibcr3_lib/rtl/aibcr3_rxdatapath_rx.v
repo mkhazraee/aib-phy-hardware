@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_rxdatapath_rx, View - schematic
 // LAST TIME SAVED: Jul  8 20:59:44 2015
 // NETLIST TIME: Jul  9 10:52:18 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_rxdatapath_rx ( async_dat_outpclk6, async_dat_outpdir2,
      dcc_done, dft_tx_clk, idat0_outpclk1n, idat1_outpclk1n,

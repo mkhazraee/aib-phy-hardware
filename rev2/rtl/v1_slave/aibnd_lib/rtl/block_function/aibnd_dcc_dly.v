@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_dcc_dly, View - schematic
 // LAST TIME SAVED: Mar 26 07:56:48 2015
 // NETLIST TIME: May 12 17:53:11 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_dcc_dly ( clkn_dly, clkn_mindly, clkp_dly, clkp_mindly,
      clk_dcd, dll_lock_reg, gray, launch, measure, nfrzdrv, vcc_aibnd,

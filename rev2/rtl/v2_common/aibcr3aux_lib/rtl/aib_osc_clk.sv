@@ -6,7 +6,7 @@
 // Description    : Behavioral model of free running clock in aux
 // Revision       : 1.0
 // ============================================================================
-`timescale 1ps/1fs
+`timescale 1ps/1ps
 module aib_osc_clk (
 		    output logic osc_clk
                    ); 

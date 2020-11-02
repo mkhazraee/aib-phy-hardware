@@ -109,8 +109,6 @@ assign sn = ~sp;
 initial step = 2;  //min:1.5ps; typ:2ps; max:4ps
 initial intrinsic = 50;  //min:10ps; typ:50ps; max:80ps
 
-initial step = 10;  //min:1.5ps; typ:2ps; max:4ps
-
 always @(*)
         if      (sp[6] == 1'b1) calc_delay = (7 * step);
         else if (sp[5] == 1'b1) calc_delay = (6 * step);
@@ -121,7 +119,6 @@ always @(*)
         else if (sp[0] == 1'b1) calc_delay = (1 * step);
         else                  calc_delay = (0 * step);
 
-initial intrinsic = 50;  //min:10ps; typ:50ps; max:80ps
 //        assign delay = intrinsic  + calc_delay;
                 always @(*) total_delay = intrinsic  + calc_delay;
                 assign #total_delay intout = fanout;

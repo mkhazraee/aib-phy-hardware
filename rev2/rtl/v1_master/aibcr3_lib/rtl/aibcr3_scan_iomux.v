@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_scan_iomux, View - schematic
 // LAST TIME SAVED: Aug 16 11:25:57 2016
 // NETLIST TIME: Sep 13 21:47:07 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_scan_iomux ( iatpg_scan_shift_clk_seg0,
      iatpg_scan_shift_clk_seg1, iatpg_scan_shift_clk_seg2,

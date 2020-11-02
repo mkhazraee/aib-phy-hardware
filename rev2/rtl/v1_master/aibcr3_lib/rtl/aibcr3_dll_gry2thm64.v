@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dll_gry2thm64, View - schematic
 // LAST TIME SAVED: Jul 25 03:08:04 2016
 // NETLIST TIME: Aug 17 15:46:58 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dll_gry2thm64 ( bk, CLKIN, 
      grey, iSE );

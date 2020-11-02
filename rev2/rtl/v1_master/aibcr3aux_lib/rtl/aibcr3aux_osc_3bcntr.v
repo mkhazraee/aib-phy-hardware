@@ -3,7 +3,7 @@
 // Library - aibcraux_lib, Cell - aibcraux_osc_3bcntr, View - schematic
 // LAST TIME SAVED: Mar 13 08:02:23 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_3bcntr ( bin_cnt, scan_out, vcc_aibcraux,
      vss_aibcraux, clk, rstb, scan_clk, scan_in, scan_mode_n,

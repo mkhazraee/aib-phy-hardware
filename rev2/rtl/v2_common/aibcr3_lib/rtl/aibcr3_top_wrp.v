@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_top_wrp, View - schematic
 // LAST TIME SAVED: Sep  8 01:32:53 2016
 // NETLIST TIME: Sep 13 21:47:08 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_top_wrp ( jtag_clksel_out, jtag_intest_out,
      jtag_mode_out, jtag_rstb_en_out, jtag_rstb_out,

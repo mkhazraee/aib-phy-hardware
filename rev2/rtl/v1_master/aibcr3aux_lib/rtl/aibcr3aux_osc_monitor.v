@@ -4,7 +4,7 @@
 //schematic
 // LAST TIME SAVED: Mar 13 07:35:17 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_monitor ( out_divby16, out_divby32, out_divby64,
      scan_out, vcc_aibcr3aux, vss_aibcr3aux, clkin, por, scan_clk,

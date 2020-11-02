@@ -6,7 +6,7 @@
 // Library - aibndaux_lib, Cell - aibndaux_top, View - schematic
 // LAST TIME SAVED: May 29 14:15:42 2015
 // NETLIST TIME: Jun  1 14:34:53 2015
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibndaux_top_slave (  o_crdet, u_crdet, u_crdet_r, u_dn_por, u_dn_por_r, i_dn_por, i_crdet_ovrd);
 

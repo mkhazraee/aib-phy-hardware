@@ -23,10 +23,10 @@ input		sel;
 output		out;
 
 `ifdef BEHAVIORAL
-  var	logic	int_out;
+  logic	int_out;
 
   always_comb begin
-    unique case ( sel )
+    case ( sel )
       1'b0    : int_out = in0;
       1'b1    : int_out = in1;
       default : int_out = 1'bx;

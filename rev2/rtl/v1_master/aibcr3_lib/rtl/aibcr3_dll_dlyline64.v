@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dll_dlyline64, View - schematic
 // LAST TIME SAVED: Aug  5 00:38:48 2016
 // NETLIST TIME: Aug 17 15:46:58 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dll_dlyline64 ( a63, dlyout, b63, bk, dlyin, CLKIN, iSE, RSTb, iSI, SOOUT
      );

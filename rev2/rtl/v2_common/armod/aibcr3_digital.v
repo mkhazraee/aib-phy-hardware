@@ -5,7 +5,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_digital, View - schematic
 // LAST TIME SAVED: Aug  4 22:27:45 2016
 // NETLIST TIME: Sep  8 13:11:45 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 // Ayar: disconnected rx_idat_buf pin of aibcr3_rxdig from pd_dataout since
 // pd_dataout is loading a critical net and is never used

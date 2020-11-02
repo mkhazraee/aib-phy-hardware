@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_pasred, View - schematic
 // LAST TIME SAVED: Jul  8 20:21:54 2015
 // NETLIST TIME: Jul  9 10:21:58 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_pasred_baldwin 
   ( 

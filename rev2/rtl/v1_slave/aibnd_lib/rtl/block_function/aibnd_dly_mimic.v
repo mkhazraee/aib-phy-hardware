@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_dly_mimic, View - schematic
 // LAST TIME SAVED: Jun 16 14:16:32 2015
 // NETLIST TIME: Jun 16 14:57:46 2015
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_dly_mimic ( ihssi_tx_data_out_dly, csr_reg6,
      idll_core2dll_1, ihssi_tx_data_out, rb_dcc_byp, rb_dcc_byp_dprio, vcc_aibnd,

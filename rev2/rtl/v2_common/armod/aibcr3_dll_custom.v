@@ -12,7 +12,7 @@
 //      be explicitly controlled
 //  3.  Now using aibcr3_dcc_phasedet single for the DCC (which is where
 //      this block is being used
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dll_custom ( clk_dcc, dcc_done, scan_out, t_down, t_up,
        clk_dcd, dll_lock, dll_reset_n, f_gray, i_gray,

@@ -5,7 +5,7 @@
 // Library - aibndaux_lib, Cell - aibndaux_actred, View - schematic
 // LAST TIME SAVED: Jul  8 17:24:01 2015
 // NETLIST TIME: Jul  9 10:28:17 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibndaux_actred ( actred_chain1, actred_chain2,
      jtag_rx_scan_out_01x1, jtag_rx_scan_out_01x2, last_bs_out_01x1,

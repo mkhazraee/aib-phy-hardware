@@ -5,7 +5,7 @@
 // Library - aibndaux_lib, Cell - aibndaux_pasred, View - schematic
 // LAST TIME SAVED: Jul  8 18:04:04 2015
 // NETLIST TIME: Jul  9 10:28:17 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibndaux_pasred ( crete_detect, jtr_tck, jtr_tdo, jtr_tms, iopad_crdet,
      iopad_dn_por, iopad_dn_rst_n, iopad_jt_tck, iopad_jt_tdi,

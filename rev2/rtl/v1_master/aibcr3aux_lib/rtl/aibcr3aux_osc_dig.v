@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_osc_dig, View - schematic
 // LAST TIME SAVED: May 19 07:42:34 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_dig ( oaib_dft2osc, oosc_clkout, oosc_monitor,
      scan_out, chicken_bit, comp_in, iaib_dft2osc, iosc_bypclk,

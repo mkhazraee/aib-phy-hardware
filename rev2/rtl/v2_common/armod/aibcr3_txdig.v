@@ -10,7 +10,7 @@
 //  2.  Made mux_din an explicit instance so it can easily query-able to assign timings to
 //  3.  Added a bunch of missing wire declarations
 
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 `default_nettype none
 module aibcr3_txdig ( indrv_buf, ipdrv_buf, itx_en_buf, tx_dat_out,

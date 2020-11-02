@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_buffx1_top, View - schematic
 // LAST TIME SAVED: Jul  8 16:11:15 2015
 // NETLIST TIME: Jul  9 10:52:16 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_buffx1_top ( async_dat_in1_jtag_out, idata0_in1_jtag_out,
      idata1_in1_jtag_out, jtag_clkdr_out, jtag_clkdr_outn,

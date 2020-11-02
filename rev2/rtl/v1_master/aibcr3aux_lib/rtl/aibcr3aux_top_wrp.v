@@ -3,7 +3,7 @@
 // Library - aibcraux_lib, Cell - aibcraux_top_wrp, View - schematic
 // LAST TIME SAVED: Apr 17 16:46:56 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-`timescale 1ps / 1ps 
+`timescale 1ps/1ps
 
 module aibcr3aux_top_wrp ( jtag_clkdr_out, jtag_clksel_out,
      jtag_intest_out, jtag_mode_out, jtag_rstb_en_out, jtag_rstb_out,

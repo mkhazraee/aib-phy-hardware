@@ -21,8 +21,8 @@ module c3lib_ckdiv2_ctn #(
 
 ); 
 
-  var	logic	int_clk_out;
-  var	logic	int_clk_in;
+  logic	int_clk_out;
+  logic	int_clk_in;
 
   // assign int_clk_in = !int_clk_out;
 

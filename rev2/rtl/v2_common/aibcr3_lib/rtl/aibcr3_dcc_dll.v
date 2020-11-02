@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dcc_dll, View - schematic
 // LAST TIME SAVED: Aug  9 03:13:12 2016
 // NETLIST TIME: Aug 17 15:46:59 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_dll ( clk_dcc, dcc_done, odll_dll2core, odll_lock,
      pvt_ref_half_gry, scan_out, clk_dcd, clk_pll,

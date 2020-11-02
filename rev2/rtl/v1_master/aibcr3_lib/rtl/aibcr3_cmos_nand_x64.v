@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_cmos_nand_x64, View - schematic
 // LAST TIME SAVED: Aug 19 00:17:00 2016
 // NETLIST TIME: Aug 31 08:45:53 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_cmos_nand_x64 ( out_p, so, code_valid,
      dll_reset_n, in_p, scan_rst_n, sck_in, se_n, si, sm_grey,

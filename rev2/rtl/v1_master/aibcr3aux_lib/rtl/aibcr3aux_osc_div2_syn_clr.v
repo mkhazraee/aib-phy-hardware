@@ -4,13 +4,13 @@
 //schematic
 // LAST TIME SAVED: Apr 30 15:12:23 2015
 // NETLIST TIME: Jun  3 17:00:05 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_div2_syn_clr ( clkout, scan_out, syncrstb,
      vcc_aibcraux, vss_aibcraux, clkin, irstb, scan_clk, scan_in,
      scan_mode_n, scan_rst_n, scan_shift_n );
 
-//  `timescale 1ps / 1ps
+//  `timescale 1ps/1ps
 
 output  clkout, scan_out, syncrstb;
 

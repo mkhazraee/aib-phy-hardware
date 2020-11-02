@@ -3,7 +3,7 @@
 // Library - aibcraux_lib, Cell - aibcraux_osc_6bcntr, View - schematic
 // LAST TIME SAVED: May 19 07:37:11 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_6bcntr ( out_bin, scan_out, vcc_aibcraux,
      vss_aibcraux, clk, cntr, en, reset_n, scan_clk, scan_in,

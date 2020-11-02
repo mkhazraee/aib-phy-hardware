@@ -3,7 +3,7 @@
 // Library - aibcraux_lib, Cell - aibcraux_osc_ff, View - schematic
 // LAST TIME SAVED: Jan 28 09:22:23 2015
 // NETLIST TIME: Jun  3 17:00:05 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_ff ( q, so, vbb, vdd, vpp, vss, cdn, cp, d, se_n,
      si );

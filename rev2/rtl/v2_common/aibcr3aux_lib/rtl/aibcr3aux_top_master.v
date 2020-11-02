@@ -13,7 +13,7 @@
 // 04/22/2020
 // 1. Shrink aux74/75 and aux85/87 to device_detect and por. 
 // 2. modify level shifter and power sequence for BC.
-`timescale 1ps / 1ps 
+`timescale 1ps/1ps
 
 module aibcr3aux_top_master  
    (

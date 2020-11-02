@@ -3,7 +3,7 @@
 // Library - aibcr_lib, Cell - aibcr_dcc_top_dummy, View - schematic
 // LAST TIME SAVED: Mar 10 15:22:01 2015
 // NETLIST TIME: May 14 11:14:35 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_top_dummy ( clk_dcc, dcc_done, clk_dcd, dcc_req,
      vcc_aibcr, vcc_io, vss_aibcr );

@@ -2,7 +2,7 @@
 // Copyright (C) 2019 Intel Corporation. 
 // Library - aibcr3aux_lib, Cell - aibcr3aux_cnup_clktree, View -
 //schematic
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_cnup_clktree ( strbclk0, strbclk1, strbclk2, strbclk3,
      strbclk4, strbclk5, strbclk6, strbclk7, strbclk8, strbclk9,

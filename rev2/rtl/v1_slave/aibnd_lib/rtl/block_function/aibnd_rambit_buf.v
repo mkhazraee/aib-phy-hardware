@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_rambit_buf, View - schematic
 // LAST TIME SAVED: Apr 19 23:56:59 2015
 // NETLIST TIME: May 12 17:53:11 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_rambit_buf ( sig_out, sig_in, vccl_aibnd, vssl_aibnd );
 

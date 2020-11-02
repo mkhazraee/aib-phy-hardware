@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_top, View - schematic
 // LAST TIME SAVED: Sep  6 00:20:12 2016
 // NETLIST TIME: Sep 13 21:47:08 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_top ( jtag_clksel_out, jtag_intest_out, jtag_mode_out,
      jtag_rstb_en_out, jtag_rstb_out, jtag_tx_scanen_out,

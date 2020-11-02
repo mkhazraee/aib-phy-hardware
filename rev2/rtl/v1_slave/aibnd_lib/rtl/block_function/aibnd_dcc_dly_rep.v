@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_dcc_dly_rep, View - schematic
 // LAST TIME SAVED: Jun 10 18:02:11 2015
 // NETLIST TIME: Jun 16 14:57:46 2015
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_dcc_dly_rep ( clkrep0, clkrep1, idat0, idat1, rb_dcc_byp,
      vcc_aibnd, vss_aibnd );

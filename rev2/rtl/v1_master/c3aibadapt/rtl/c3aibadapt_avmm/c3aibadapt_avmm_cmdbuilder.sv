@@ -19,7 +19,7 @@ module c3aibadapt_avmm_cmdbuilder
 	output	wire		avmm_cmdbuilder_error,
 	output	wire [8:0]	avmm_cmdbuilder_testbus
 );
-        timeunit 100ps;
+        timeunit 1ps;
         timeprecision 1ps;
 
 	reg [1:0]	aib_hssi_avmm_data_in_reg;
@@ -144,13 +144,13 @@ module c3aibadapt_avmm_cmdbuilder
 	begin
         	if (~avmm_reset_rx_osc_clk_rst_n)
          	begin
-             		avmm_cmd_32bit_data[31:0] <= #1 32'h00000000;
+             		avmm_cmd_32bit_data[31:0] <= #100 32'h00000000;
 		end
 		else
 		begin
 			if (avmm_cmd_cnt[3:0] ==4'b1111)
 			begin
-				avmm_cmd_32bit_data[31:0] <= #1 {aib_hssi_avmm_data_in_reg[1:0],avmm_cmd_shift_reg1[1:0],avmm_cmd_shift_reg2[1:0],avmm_cmd_shift_reg3[1:0],avmm_cmd_shift_reg4[1:0],avmm_cmd_shift_reg5[1:0],avmm_cmd_shift_reg6[1:0],avmm_cmd_shift_reg7[1:0],avmm_cmd_shift_reg8[1:0],avmm_cmd_shift_reg9[1:0],avmm_cmd_shift_reg10[1:0],avmm_cmd_shift_reg11[1:0],avmm_cmd_shift_reg12[1:0],avmm_cmd_shift_reg13[1:0],avmm_cmd_shift_reg14[1:0],avmm_cmd_shift_reg15[1:0]};
+				avmm_cmd_32bit_data[31:0] <= #100 {aib_hssi_avmm_data_in_reg[1:0],avmm_cmd_shift_reg1[1:0],avmm_cmd_shift_reg2[1:0],avmm_cmd_shift_reg3[1:0],avmm_cmd_shift_reg4[1:0],avmm_cmd_shift_reg5[1:0],avmm_cmd_shift_reg6[1:0],avmm_cmd_shift_reg7[1:0],avmm_cmd_shift_reg8[1:0],avmm_cmd_shift_reg9[1:0],avmm_cmd_shift_reg10[1:0],avmm_cmd_shift_reg11[1:0],avmm_cmd_shift_reg12[1:0],avmm_cmd_shift_reg13[1:0],avmm_cmd_shift_reg14[1:0],avmm_cmd_shift_reg15[1:0]};
 			end
 		end
 	end
@@ -159,11 +159,11 @@ module c3aibadapt_avmm_cmdbuilder
 	begin
         	if (~avmm_reset_rx_osc_clk_rst_n)
          	begin
-             		avmm_cmd_load_en <= #1 1'b0;
+             		avmm_cmd_load_en <= #100 1'b0;
 		end
 		else
 		begin
-			avmm_cmd_load_en <= #1 (avmm_cmd_cnt[3:0] == 4'b1111) || (avmm_cmd_load_en && (avmm_cmd_load_cnt[2:0] != 3'b111));
+			avmm_cmd_load_en <= #100 (avmm_cmd_cnt[3:0] == 4'b1111) || (avmm_cmd_load_en && (avmm_cmd_load_cnt[2:0] != 3'b111));
 		end
 	end
 

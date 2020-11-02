@@ -21,7 +21,7 @@
 //  2.  Delay cells are now generic modules that can instantiate process-specifc cells at a lower
 //      level.
 
-`timescale 1ns / 1ns
+// `timescale 1ps/1ps
 
 `default_nettype none
 module aibcr3_analog ( oclkn, oclkp, odat, odat_async,

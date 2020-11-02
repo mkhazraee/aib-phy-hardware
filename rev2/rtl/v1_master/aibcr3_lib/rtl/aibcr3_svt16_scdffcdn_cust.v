@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright (C) 2019 Intel Corporation. 
 // Library - aibcr3_lib, View - schematic
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_svt16_scdffcdn_cust ( Q, scQ, 
      CDN, CK, D, SE, SI );

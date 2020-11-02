@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_async, View - schematic
 // LAST TIME SAVED: Aug 24 11:14:41 2015
 // NETLIST TIME: Aug 26 15:05:12 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_async ( io_in, io_oe, jtag_rx_scan_out_10x7,
      jtag_rx_scan_out_10x8, last_bs_out_10x7, last_bs_out_10x8,

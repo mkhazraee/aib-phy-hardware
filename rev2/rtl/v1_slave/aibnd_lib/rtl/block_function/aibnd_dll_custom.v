@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_dll_custom, View - schematic
 // LAST TIME SAVED: Mar 27 14:37:40 2015
 // NETLIST TIME: May 12 17:53:11 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_dll_custom ( clk_dcc, dcc_done, scan_out, t_down, t_up,
      clk_dcd, dll_lock, dll_reset_n, f_gray, i_gray, launch, measure,

@@ -10,7 +10,7 @@
 // Library - aibnd_lib, Cell - aibnd_txanlg, View - schematic
 // LAST TIME SAVED: Sep 10 18:08:54 2014
 // NETLIST TIME: Sep 11 16:10:47 2014
-//`timescale 1ps / 1ps 
+//`timescale 1ps/1ps
 
 module aibnd_txanlg ( txpadout, vccl_aibnd, vssl_aibnd, din, ndrv_enb, pdrv_en,
      weak_pulldownen, weak_pullupenb );

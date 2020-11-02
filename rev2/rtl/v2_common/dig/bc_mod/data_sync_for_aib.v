@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright (C) 2019 Blue Cheetah Analog Design, Inc.
 // time scale
-`timescale 1ns/1ps
+`timescale 1ps/1ps
 
 // no undeclared nets
 `default_nettype none

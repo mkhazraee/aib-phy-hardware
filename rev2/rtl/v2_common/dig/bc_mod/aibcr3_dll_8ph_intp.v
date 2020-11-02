@@ -4,7 +4,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dll_8ph_intp, View - schematic
 // LAST TIME SAVED: Aug 17 15:37:14 2016
 // NETLIST TIME: Aug 17 15:46:58 2016
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 // Interpolator hierarchy : 
 // Summary Of changes
 // 1. Commented the non synthesizable constructs
@@ -110,8 +110,6 @@ aibcr3_dll_interpolator x142 ( .intout(intout), .a_in(fanout), .sn(sn[6:0]),
 //initial step = 2;  //min:1.5ps; typ:2ps; max:4ps
 //initial intrinsic = 50;  //min:10ps; typ:50ps; max:80ps
 //
-//initial step = 10;  //min:1.5ps; typ:2ps; max:4ps
-//
 //always @(*)
 //        if      (sp[6] == 1'b1) calc_delay = (7 * step);
 //        else if (sp[5] == 1'b1) calc_delay = (6 * step);
@@ -122,7 +120,6 @@ aibcr3_dll_interpolator x142 ( .intout(intout), .a_in(fanout), .sn(sn[6:0]),
 //        else if (sp[0] == 1'b1) calc_delay = (1 * step);
 //        else                  calc_delay = (0 * step);
 //
-//initial intrinsic = 50;  //min:10ps; typ:50ps; max:80ps
 ////        assign delay = intrinsic  + calc_delay;
 //                always @(*) total_delay = intrinsic  + calc_delay;
 ////                assign #total_delay intout = fanout;

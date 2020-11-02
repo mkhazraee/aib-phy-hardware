@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_actred, View - schematic
 // LAST TIME SAVED: Aug 21 17:06:33 2015
 // NETLIST TIME: Aug 26 15:05:13 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_actred ( jtag_rx_scan_out_01x1, jtag_rx_scan_out_01x2,
      last_bs_out_01x1, last_bs_out_01x2, iopad_actred_chain1,

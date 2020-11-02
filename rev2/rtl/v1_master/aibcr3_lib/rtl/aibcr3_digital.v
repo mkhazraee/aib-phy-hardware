@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_digital, View - schematic
 // LAST TIME SAVED: Aug  4 22:27:45 2016
 // NETLIST TIME: Sep  8 13:11:45 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_digital ( clkbuf_en, datbuf_en, indrv_buf, ipdrv_buf,
      itx_en_buf, odat0, odat1, pd_dataout, rx_disable, sync_datbuf_en0,

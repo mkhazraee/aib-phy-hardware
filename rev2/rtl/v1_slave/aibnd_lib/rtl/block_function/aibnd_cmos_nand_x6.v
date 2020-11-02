@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_cmos_nand_x6, View - schematic
 // LAST TIME SAVED: Mar 26 07:33:49 2015
 // NETLIST TIME: Apr  3 13:57:16 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_cmos_nand_x6 ( co_p, out_p, so, bk0, bk1, bk2,
      bk3, bk4, bk5, ci_p, ck, code_valid, in_p, nrst, se_n, si,

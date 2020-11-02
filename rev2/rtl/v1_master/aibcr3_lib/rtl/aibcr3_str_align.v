@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_str_align, View - schematic
 // LAST TIME SAVED: Aug 19 00:24:25 2016
 // NETLIST TIME: Aug 31 08:45:53 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_str_align ( lstrbclk_l_0, lstrbclk_l_1, lstrbclk_l_2,
      lstrbclk_l_3, lstrbclk_l_4, lstrbclk_l_5, lstrbclk_l_6,

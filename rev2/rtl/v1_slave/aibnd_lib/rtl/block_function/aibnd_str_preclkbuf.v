@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_str_preclkbuf, View - schematic
 // LAST TIME SAVED: Mar 25 07:54:22 2015
 // NETLIST TIME: May 12 17:53:10 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_str_preclkbuf ( clkout, clkin, vcc_aibnd, vss_aibnd );
 

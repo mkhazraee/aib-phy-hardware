@@ -5,7 +5,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_rxdatapath_rx, View - schematic
 // LAST TIME SAVED: Jul  8 20:59:44 2015
 // NETLIST TIME: Jul  9 10:52:18 2015
-// `timescale 1ns / 1ns
+// `timescale 1ps/1ps
 
 // Ayar changes:
 //  1.  Removed vcc, vccl, and vss pins

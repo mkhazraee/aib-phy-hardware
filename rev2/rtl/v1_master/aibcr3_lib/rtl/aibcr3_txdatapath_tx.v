@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_txdatapath_tx, View - schematic
 // LAST TIME SAVED: Jul  8 22:38:43 2015
 // NETLIST TIME: Jul  9 10:52:17 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_txdatapath_tx ( SCAN_OUT_SEG2, async_dat_oshared4, async_dat_outpclk3,
      async_dat_outpdir3, dummy_dcc_done, iclkin_dist_pinp18,

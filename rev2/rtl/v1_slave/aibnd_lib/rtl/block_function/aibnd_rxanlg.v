@@ -12,7 +12,7 @@
 // Library - aibnd_lib, Cell - aibnd_rxinv, View - schematic
 // LAST TIME SAVED: Oct  1 14:27:50 2014
 // NETLIST TIME: Oct 27 17:27:56 2014
-//`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_rxanlg ( oclkn, oclkp, odat, odat_async, iopad, vccl_aibnd,
      vssl_aibnd, clk_en, data_en, iclkn );

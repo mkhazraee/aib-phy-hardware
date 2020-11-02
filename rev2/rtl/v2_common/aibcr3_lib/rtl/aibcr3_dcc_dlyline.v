@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dcc_dlyline, View - schematic
 // LAST TIME SAVED: Aug  1 02:00:10 2016
 // NETLIST TIME: Aug 17 15:46:58 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_dlyline ( SOOUT, bk_TP, crsDLY, dlyline_out, 
       CLK, PDb, SE, SI, SMCLK, gry );

@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_str_align, View - schematic
 // LAST TIME SAVED: May  7 14:46:58 2015
 // NETLIST TIME: May 12 17:53:11 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_str_align ( lstrbclk_l_0, lstrbclk_l_1, lstrbclk_l_2,
      lstrbclk_l_3, lstrbclk_l_4, lstrbclk_l_5, lstrbclk_l_6,

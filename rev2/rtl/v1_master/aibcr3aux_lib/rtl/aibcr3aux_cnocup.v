@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_cnocup, View - schematic
 // LAST TIME SAVED: Aug 21 17:03:12 2015
 // NETLIST TIME: Aug 26 15:05:12 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_cnocup ( jtag_rx_scan_out_10x3, jtag_rx_scan_out_10x4,
      last_bs_in_12x4, last_bs_out_10x3, last_bs_out_10x4, iopad_cnup,

@@ -4,7 +4,7 @@
 //schematic
 // LAST TIME SAVED: Jan 30 17:11:30 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_sync_ff ( Q, so,  
        CDN, CP, D, se_n, si );

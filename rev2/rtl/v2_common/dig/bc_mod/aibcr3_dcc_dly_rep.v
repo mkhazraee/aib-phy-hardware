@@ -20,7 +20,7 @@
 // This should have also been a problem that was found and fixed by
 // Ayar.  However in their implementation, they dispensed with the
 // delay cell (and interpolator) altogether.
-`timescale 1ns / 1ns
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_dly_rep ( clkrep, idat, rb_dcc_byp );
 

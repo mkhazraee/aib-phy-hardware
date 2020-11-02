@@ -9,7 +9,7 @@
 // Ayar modified: changed assign statement between oclkn and iopad to use a
 // a custom cell and also use that custom cell to fix connections to rx_digital
 
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_buffx1 ( oclk, oclkb, oclkn, odat0, odat1, odat_async,
      pd_data, iopad, async_dat, clkdr, iclkin_dist,

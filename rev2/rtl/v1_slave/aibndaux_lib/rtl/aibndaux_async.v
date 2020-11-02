@@ -5,7 +5,7 @@
 // Library - aibndaux_lib, Cell - aibndaux_async, View - schematic
 // LAST TIME SAVED: Jul  8 16:37:33 2015
 // NETLIST TIME: Jul  9 10:28:17 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibndaux_async ( io_out, jtag_rx_scan_out_10x7,
      jtag_rx_scan_out_10x8, last_bs_out_10x7, last_bs_out_10x8, tstmx,

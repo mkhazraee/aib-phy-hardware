@@ -23,8 +23,8 @@ input  		clk_en;
 input  		clk;
 output 		gated_clk;
 `ifdef BEHAVIORAL
-  var	logic	latch_d;
-  var	logic	latch_q;
+  logic	latch_d;
+  logic	latch_q;
 
   // Formulate control signal
   assign latch_d = clk_en | tst_en;

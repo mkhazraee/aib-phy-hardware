@@ -3,7 +3,7 @@
 // Library - aibcr_lib, Cell - aibcr_preclkbuf, View - schematic
 // LAST TIME SAVED: Oct 10 10:00:30 2014
 // NETLIST TIME: May 14 11:14:35 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_preclkbuf ( out, vcc_pl, vss_pl, in );
 

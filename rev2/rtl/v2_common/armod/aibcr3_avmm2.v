@@ -5,7 +5,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_avmm2, View - schematic
 // LAST TIME SAVED: Jul  8 11:29:14 2015
 // NETLIST TIME: Jul  9 10:52:19 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 // Ayar changes: removed vcc, vccl, and vss pins
 module aibcr3_avmm2 ( avmm2_odat0, avmm2_odat1, idata0_voutp1,

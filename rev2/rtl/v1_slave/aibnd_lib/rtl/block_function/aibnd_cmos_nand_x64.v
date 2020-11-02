@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_cmos_nand_x64, View - schematic
 // LAST TIME SAVED: Mar 26 07:33:49 2015
 // NETLIST TIME: May 12 17:53:10 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_cmos_nand_x64 ( out_p, so, ck, code_valid, gray, in_p,
      nrst, se_n, si, vcc_aibnd, vcc_io, vss_aibnd );

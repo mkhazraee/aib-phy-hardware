@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_red_custom_dig2, View - schematic
 // LAST TIME SAVED: Apr 22 17:47:49 2015
 // NETLIST TIME: May 12 17:53:10 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_red_custom_dig2 ( iclkin_dist_aib, ilaunch_clk_aib,
      istrbclk_aib, oclk_out, oclkb_out, clkdr_in, iclkin_dist_in0,

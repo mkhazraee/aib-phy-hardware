@@ -45,9 +45,9 @@ logic mux_i_rst_b_n;
 logic mux_i_rst_a_n;
 
 // To make spyglass happy
-var	logic	clk_a_sel_bit2_inv;
-var	logic	i_sel_clk_inv;
-var	logic	clk_b_sel_bit2_inv;
+logic	clk_a_sel_bit2_inv;
+logic	i_sel_clk_inv;
+logic	clk_b_sel_bit2_inv;
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -82,12 +82,15 @@ c3lib_bitsync #(
       .data_out          (clk_b_sel[1] )
 );
 
+reg clk_b_sel_r;
+assign clk_b_sel[2] = clk_b_sel_r;
+
 always @(negedge i_clk_b or negedge mux_i_rst_b_n) begin : p_gfclk_b
    if (mux_i_rst_b_n==1'b0) begin
-      clk_b_sel[2] <= 1'b0;
+      clk_b_sel_r <= 1'b0;
    end
    else begin
-      clk_b_sel[2] <= clk_b_sel[1];
+      clk_b_sel_r <= clk_b_sel[1];
    end
 end : p_gfclk_b
 
@@ -124,13 +127,15 @@ c3lib_bitsync #(
       .data_out          (clk_a_sel[1] )
 );
 
+reg clk_a_sel_r;
+assign clk_a_sel[2] = clk_a_sel_r;
 
 always @(negedge i_clk_a or negedge mux_i_rst_a_n) begin : p_gfclk_a
    if (mux_i_rst_a_n==1'b0) begin
-      clk_a_sel[2] <= 1'b0;
+      clk_a_sel_r <= 1'b0;
    end
    else begin
-      clk_a_sel[2] <= clk_a_sel[1];
+      clk_a_sel_r <= clk_a_sel[1];
    end
 end : p_gfclk_a
 

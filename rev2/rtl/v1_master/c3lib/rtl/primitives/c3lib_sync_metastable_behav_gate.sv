@@ -30,13 +30,13 @@ module c3lib_sync_metastable_behav_gate #(
   output	data_out;
 
   // Variables
-  var	logic[ (SYNC_STAGES-1) : 0 ]	sync_regs;
+  logic[ (SYNC_STAGES-1) : 0 ]	sync_regs;
 `ifndef EMULATION_MODE_FOR_QPRIME_COMPILATION
-  var	logic				meta_reg;
+  logic				meta_reg;
   integer				meta_counter;
-  var	logic				meta_cycle;
+  logic				meta_cycle;
   localparam				META_COUNT = 256;
-  var	logic				en_metastability;
+  logic				en_metastability;
 `endif
 
   // Reset value to eliminate truncation warning

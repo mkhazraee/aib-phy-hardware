@@ -3,7 +3,7 @@
 // Library - aibcr3aux_lib, Cell - aibcr3aux_osc_divby8, View - schematic
 // LAST TIME SAVED: Mar 13 07:30:56 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_divby8 ( out_divby2, out_divby4, out_divby8,
      scan_out, vcc_aibcr3aux, vss_aibcr3aux, clkin, por, scan_clk,

@@ -23,7 +23,7 @@ input		rst_n;
 input		data_in;
 output		data_out;
 
-  var	logic	dff_reg;
+  logic	dff_reg;
 
   always @(negedge rst_n or posedge clk) begin
     dff_reg <= (rst_n == 1'b0)? 1'b0 : data_in;

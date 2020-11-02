@@ -46,13 +46,13 @@ localparam SRC_DATA_FREQ_MHZ = (SRC_CLK_FREQ_MHZ*DST_CLK_FREQ_MHZ)/(SRC_CLK_FREQ
 //  Variables
 // ****************************************************************************
 
-var	logic[ (DWIDTH-1) : 0 ]		data_in_d1;
-var	logic				req_wr_clk;
-var	logic				req_rd_clk;
-var	logic				req_rd_clk_d1;
-var	logic				ack_wr_clk;
-var	logic				ack_rd_clk;
-var	logic				reset_bit_val;
+logic[ (DWIDTH-1) : 0 ]		data_in_d1;
+logic				req_wr_clk;
+logic				req_rd_clk;
+logic				req_rd_clk_d1;
+logic				ack_wr_clk;
+logic				ack_rd_clk;
+logic				reset_bit_val;
 
 
 

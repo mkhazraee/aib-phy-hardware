@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dcc_dly, View - schematic
 // LAST TIME SAVED: Aug  1 14:57:18 2016
 // NETLIST TIME: Aug 17 15:46:58 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dcc_dly ( SOOUT, clk_dly, clk_mindly, PDb,
      SE, SI, SMCLK, clk_dcd, dll_lock_reg, gray, launch, measure );

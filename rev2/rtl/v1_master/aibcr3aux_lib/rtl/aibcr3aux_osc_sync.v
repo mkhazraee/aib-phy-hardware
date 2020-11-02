@@ -3,7 +3,7 @@
 // Library - aibcraux_lib, Cell - aibcraux_osc_sync, View - schematic
 // LAST TIME SAVED: Apr 30 15:28:05 2015
 // NETLIST TIME: Jun  3 17:00:06 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3aux_osc_sync ( en_out, resetb_out, scan_out, vcc_aibcraux,
      vss_aibcraux, clk, d, resetb, scan_clk, scan_in, scan_mode_n,

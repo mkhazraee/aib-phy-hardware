@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_interface, View - schematic
 // LAST TIME SAVED: May 12 19:43:37 2015
 // NETLIST TIME: May 12 19:44:01 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_interface ( iasyncdata_out, iatpg_pipeline_global_en_out,
      iatpg_scan_clk_in0_out, iatpg_scan_clk_in1_out,

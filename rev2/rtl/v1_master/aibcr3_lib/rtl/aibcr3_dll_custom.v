@@ -3,7 +3,7 @@
 // Library - aibcr3_lib, Cell - aibcr3_dll_custom, View - schematic
 // LAST TIME SAVED: Aug  1 01:14:35 2016
 // NETLIST TIME: Aug 17 15:46:59 2016
-`timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibcr3_dll_custom ( clk_dcc, dcc_done, scan_out, t_down, t_up,
        clk_dcd, dll_lock, dll_reset_n, f_gray, i_gray,

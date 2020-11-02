@@ -3,7 +3,7 @@
 // Library - aibnd_lib, Cell - aibnd_avmm2, View - schematic
 // LAST TIME SAVED: Jul  6 22:07:17 2015
 // NETLIST TIME: Jul  8 13:09:51 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_avmm2 ( avmm2_odat0, avmm2_odat1, idat0_voutp10,
      idat0_voutp11, idat1_voutp10, idat1_voutp11, idataselb_voutp10,

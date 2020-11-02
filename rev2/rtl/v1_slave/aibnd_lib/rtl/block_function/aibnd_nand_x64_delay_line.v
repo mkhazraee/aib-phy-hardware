@@ -4,7 +4,7 @@
 //schematic
 // LAST TIME SAVED: Mar 26 07:33:47 2015
 // NETLIST TIME: May 12 17:53:10 2015
-// `timescale 1ns / 1ns 
+// `timescale 1ps/1ps
 
 module aibnd_nand_x64_delay_line ( out_p, so, code_valid, dll_reset_n,
      f_gray, i_gray, in_p, scan_rst_n, sck_in, se_n, si, sm_n,
